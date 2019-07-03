@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import Padrao from '../estilo/Padrao'
 
 /**
  * Possibilidades de construir a mesma funcionalidade
@@ -23,6 +24,6 @@ import { Text, View } from 'react-native'
 
  /* Componente baseado em "Arrow function (função seta), varias linhas com Array (return implicito) */
 export default (props) => [
-	<Text key={1}>Arrow 1: {props.texto}</Text>,
-	<Text key={2}>Arrow 2: {props.texto}</Text>
+	<Text style={[Padrao.ex]} key={1}>Arrow 1: {props.texto}</Text>,
+	<Text style={[Padrao.ex]} key={2}>Arrow 2: {props.texto}</Text>
 ]
