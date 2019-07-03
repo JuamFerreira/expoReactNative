@@ -13,7 +13,7 @@ import Padrao from '../estilo/Padrao'
 // }
 
  /* Componente baseado em "Arrow function (função seta) em uma linha e sem encapsulamento (return implicito) */
-// export default props => <Text>Arrow: {props.texto}</Text>
+export default props => <Text style={Padrao.ex}>Arrow: {props.texto}</Text>
 
  /* Componente baseado em "Arrow function (função seta), varias linhas com encapsulamento(return implicito) */
 // export default props =>
@@ -23,7 +23,7 @@ import Padrao from '../estilo/Padrao'
 // 	</View>
 
  /* Componente baseado em "Arrow function (função seta), varias linhas com Array (return implicito) */
-export default (props) => [
-	<Text style={[Padrao.ex]} key={1}>Arrow 1: {props.texto}</Text>,
-	<Text style={[Padrao.ex]} key={2}>Arrow 2: {props.texto}</Text>
-]
+// export default (props) => [
+// 	<Text style={[Padrao.ex]} key={1}>Arrow 1: {props.texto}</Text>,
+// 	<Text style={[Padrao.ex]} key={2}>Arrow 2: {props.texto}</Text>
+// ]
