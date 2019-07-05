@@ -4,7 +4,7 @@ import Padrao from '../estilo/Padrao'
 
 /**
  * Função para inverter um texto.
- * @param {Recebe o texto a ser invertivo} props 
+ * @param props.texto Recebe o texto a ser invertivo
  * 
  * Colocamos export sem default para importar mais de uma função do componente na clase desejada.
  */

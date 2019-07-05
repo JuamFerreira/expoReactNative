@@ -5,7 +5,7 @@ import ParImpar from './componentes/ParImpar'
 
 //Quando o componente não está exportado por default é necessário o uso de chaves no import,
 //Mas pode ser usados das duas formas para o mesmo componente
-import Inverter, { MegaSena} from './componentes/Multi'
+import Inverter, { MegaSena } from './componentes/Multi'
 
 export default class App extends Component{
 	render(){
