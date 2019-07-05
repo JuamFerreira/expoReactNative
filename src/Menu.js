@@ -7,6 +7,7 @@ import ParImpar from './componentes/ParImpar'
 //Quando o componente não está exportado por default é necessário o uso de chaves no import,
 //Mas pode ser usados das duas formas para o mesmo componente
 import Inverter, { MegaSena } from './componentes/Multi'
+import Contador from './componentes/Contador'
 
 /**
  * Classe principal para receber os componentes criados 
@@ -18,6 +19,9 @@ import Inverter, { MegaSena } from './componentes/Multi'
  *  
  */
 export default createDrawerNavigator ({
+	Contador: {
+		screen: () => <Contador numeroInicial={10} />
+	},
 	MegaSena: {
 		screen: () => <MegaSena numeros={6} />,
 		navigationOptions: { title: 'Mega Sena' }
